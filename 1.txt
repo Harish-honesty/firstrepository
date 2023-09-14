@@ -1,0 +1,22 @@
+ multiple stages, where each stage performs a specific task
+
+    pipeline {  
+    agent any  
+    stages {  
+            stage ('Build') {  
+                ...  
+            }  
+            stage ('Test') {  
+                ...  
+            }  
+            stage ('QA') {  
+                ...  
+            }  
+            stage ('Deploy') {  
+                ...  
+            }  
+            stage ('Monitor') {  
+                ...  
+            }  
+    }  
+}  
